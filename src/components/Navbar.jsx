@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Link to={"/"} className="navbar-brand">
-          Navbar
+          Phone World
         </Link>
         <button
           className="navbar-toggler"
