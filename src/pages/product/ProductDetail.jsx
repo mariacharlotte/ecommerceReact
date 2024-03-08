@@ -4,6 +4,7 @@ import { PRODUCTS } from "../../products";
 import { CartContext } from "../../context/CartContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const ProductDetail = () => {
   const params = useParams();
